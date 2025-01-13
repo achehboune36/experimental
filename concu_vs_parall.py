@@ -1,5 +1,5 @@
 """
-Experimental script to compaire multi-threading and multi-processing in a not very thorough way [fibb]
+Experimental script to compair multi-threading and multi-processing in a not very thorough way [fibb]
 """
 
 import time
