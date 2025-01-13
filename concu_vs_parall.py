@@ -1,3 +1,7 @@
+"""
+Experimental script to compaire multi-threading and multi-processing in a not very thorough way [fibb]
+"""
+
 import time
 import math
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
