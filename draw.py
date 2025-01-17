@@ -253,12 +253,10 @@ class DrawingApp:
         import replicate
         input = {
             "image": f"data:application/octet-stream;base64,{encoded_image}",
-            "scale": 2,
-            "prompt": prompt,
-            "cn_lineart_strength": 1
+            "prompt": prompt
         }
         output = replicate.run(
-            "helios-infotech/sketch_to_image:feb7325e48612a443356bff3d0e03af21a42570f87bee6e8ea4f275f2bd3e6f9",
+            "jagilley/controlnet-scribble:435061a1b5a4c1e26740464bf786efdfa9cb3a3ac488595a2de23e143fdb0117",
             input=input
         )
 
